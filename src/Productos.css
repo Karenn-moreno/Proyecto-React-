@@ -1,0 +1,115 @@
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #0f0f0f, #1a1f3c);/*#f5f5f5;*/
+    color:#333;
+}
+.producto-pagina{
+    text-align: center;
+}
+header{
+    background: linear-gradient(135deg, #0f0f0f, #16192c);
+    color:#fff;
+    padding: 20px;
+}
+header P{
+    font-size: 1.3rem;
+}
+.contenedor{
+    background:linear-gradient(135deg, #ece1e1, #414b83); /*#fff;*/
+    max-width: 900px;
+    margin: 20px auto;
+    padding:50px;
+    border-radius: 8px;
+}
+
+.imagen-producto{
+    width: 50%;
+    height:auto;
+    max-width: 400px;
+    margin: 20px 0;
+    border-radius:10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0,0, .3);
+}
+.descripcion h2 {
+    color:rgb(0, 0, 0);
+}
+.descripcion p{
+    font-size: 1.4rem;
+}
+.descripcion {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.det-btn{
+    display:block;
+    margin-top: 20px auto;
+    padding: 12px 25px;
+    background: #7a83da;
+    color: #fff;
+    text-decoration:none;
+    font-weight: bold;
+    border-radius:5px; 
+    font-size: 1.4rem;
+}
+.det-btn:hover{
+    background: linear-gradient(45deg, #ff6b6b, #5f27cd);
+}
+
+.contacto{
+    background: #ccc;
+    padding: 30px 20px;
+    text-align:  center;
+}
+
+.Contacto h2{
+    color:#f1f1f1;
+    font-size: 2rem;
+}
+.Contacto p{
+    color:#f1f1f1;
+    font-size: 1.4rem;
+}
+
+.video-producto {
+    display: block;
+    margin: 20px auto;
+    max-width: 500px; 
+    width: 100%;      
+    height: auto;    
+    background: #000; 
+    border-radius: 10px;
+    border: 5px solid; 
+    border-image: linear-gradient(45deg, #ff6b6b, #5f27cd) 1;
+}
+.video-producto:hover {
+    border-image: linear-gradient(45deg, #1dd1a1, #54a0ff) 1;
+}
+.btn-volver{
+    display:block;
+    margin-top: 20px auto;
+    padding: 12px 25px;
+    background: #4555ec;
+    color: #fff;
+    text-decoration:none;
+    font-weight: bold;
+    border-radius:5px; 
+    font-size: 1.4rem;
+}
+.btn-volver:hover{
+    background:linear-gradient(45deg, #1dd1a1, #54a0ff) ;
+}
+.caracteristicas {
+    list-style-type: disc; 
+    padding-left: 20px;
+    margin-top: 15px;
+    line-height: 1.6; 
+    color: #333;
+    font-size: 1.3rem;
+}
+.caracteristicas li {
+    margin-bottom: 10px; 
+}
